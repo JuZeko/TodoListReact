@@ -1,0 +1,28 @@
+.mid{
+
+background: gold;
+height: 100vh;
+display: flex;
+ flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+
+.mid > div:nth-child(even){
+
+background-color: red;
+width: 30vw;
+
+
+}
+
+
+.mid > div:nth-child(odd){
+
+background-color: blue;
+width: 30vw;
+
+}
+
+
